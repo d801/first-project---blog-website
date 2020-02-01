@@ -11,7 +11,7 @@
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background:url(../img/pink-flower.jpg);
+  background:url(../img/pink-flower.png);
   background-size: cover;
   background-position: center;
   padding: 3rem;

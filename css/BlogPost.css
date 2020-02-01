@@ -99,7 +99,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background:url(../img/portrait-.jpg);
+  background:url(../img/portrait-.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@ img {
 
 /* Info */
 .info {
-  background-image: url(../img/light-background.jpg);
+  background-color: #efebea;
   background-size: cover;
   background-position: center;
   box-shadow: var(--shadow);
