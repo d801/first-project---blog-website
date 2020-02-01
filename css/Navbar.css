@@ -1,0 +1,47 @@
+/* Navigation */
+.main-nav ul {
+  display: grid;
+  grid-gap: 20px;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav h1{
+
+	position: center;
+
+}
+
+/*to style each link*/
+.main-nav a {
+  background: var(--primary);
+  display: block;
+  text-decoration: 0;
+  padding: 0.8rem;
+  text-align: center;
+  color: var(--dark);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);
+}
+
+.main-nav a:hover {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  background: var(--dark);
+  color: var(--light);
+  text-align: center;
+  padding: 1rem;
+}

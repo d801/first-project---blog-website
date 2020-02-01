@@ -1,0 +1,55 @@
+/* Top Box */
+.top-box {
+  background-color: #efebea;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
+
+.email{
+  height: 25px;
+  margin-top: -9px;
+  margin-bottom: -9px;
+  margin-right: 10px;
+
+}
+em{
+  position: inherit
+}
+
+
+.top-box-a {
+  display: flex;
+  grid-area: top-box-a;
+  justify-content: center;
+}
+
+.top-box-b {
+  display: flex;
+  justify-content: center;
+  grid-area: top-box-b;
+}
+
+/* Boxes */
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.box {
+  background: var(--primary);
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow);
+   flex-wrap: wrap;
+}
+
+.define-word{
+  font-size: 30px;
+  margin-right: 10px;
+}
